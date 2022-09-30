@@ -1,7 +1,7 @@
 function AsideBar() {
   return (
     <div>
-      <h1>Aside</h1>
+      <h1>MENU</h1>
     </div>
   )
 }
