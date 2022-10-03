@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const DivWelcome = styled.div`
   display: flex;
-  width: 90%;
+  width: 95%;
   height: 168px;
   background-color: #FFF;
   border: 2px solid #CAD5DE;
@@ -10,7 +10,7 @@ export const DivWelcome = styled.div`
 
 export const BlockGray = styled.div`
   display: flex;
-  width: 20%;
+  width: 25%;
   height: 100%;
   justify-content: center;
   background-color: #E2E7EC;
@@ -23,6 +23,11 @@ export const LogoImg = styled.div`
 `
 
 export const ContainerTextWelcome = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   width: 70%;
   margin: 16px;
 `

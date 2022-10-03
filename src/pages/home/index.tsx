@@ -25,23 +25,23 @@ function Home() {
               <S.ContainerFarmsAndReasons>
 
                 <S.ContainerProjectReasons>
-                  <AsideBar />
+                <h1 style={{ fontSize: 20, margin: 5 }}>MENU</h1>
                 </S.ContainerProjectReasons>
 
                 <S.ContainerEvaluatedFarms>
-                  <AsideBar />
+                <h1 style={{ fontSize: 20, margin: 5 }}>MENU</h1>
                 </S.ContainerEvaluatedFarms>
 
               </S.ContainerFarmsAndReasons>
 
               <S.ContainerMethodology>
-                <AsideBar />
+              <h1 style={{ fontSize: 20, margin: 5 }}>MENU</h1>
               </S.ContainerMethodology>
 
             </S.ContainerFarmsAndReasonsAndMethodology>
 
             <S.ContainerProductivity>
-              <AsideBar />
+            <h1 style={{ fontSize: 20, margin: 5 }}>MENU</h1>
             </S.ContainerProductivity>
 
           </S.ContainerCenter>

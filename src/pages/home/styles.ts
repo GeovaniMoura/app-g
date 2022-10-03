@@ -19,13 +19,13 @@ export const ContainerMain = styled.div`
 export const DivMain = styled.div`
   display: flex;
   margin-top: 10px;
-  width: 90%;
+  width: 95%;
   height: 55%;
 `
 
 export const ContainerAside = styled.div`
   display: flex;
-  width: 20%;
+  width: 25%;
   height: 100%;
   border: 2px solid #CAD5DE;
   text-align: center;
@@ -36,12 +36,13 @@ export const ContainerFarmsAndReasons = styled.div`
   display: flex;
   flex-direction: column;
   width: 35%;
+  height: 100%;
 `
 
 export const ContainerProjectReasons = styled.div`
   display: flex;
   width: 100%;
-  height: 45%;
+  height: 60%;
   border: 2px solid #CAD5DE;
   margin: 0 20px;
   justify-content: center;
@@ -59,7 +60,7 @@ export const ContainerEvaluatedFarms = styled.div`
 export const ContainerMethodology = styled.div`
   display: flex;
   flex-grow: 1;
-  height: 77%;
+  height: 93%;
   margin-left: 40px;
   border: 2px solid #CAD5DE;
   justify-content: center;
@@ -80,10 +81,8 @@ export const ContainerFarmsAndReasonsAndMethodology = styled.div`
 
 export const ContainerProductivity = styled.div`
   display: flex;
-  flex-grow: 1;
-  width: 100%;
   height: 40%;
   justify-content: center;
-  margin: 0 20px;
+  margin-left: 20px;
   border: 2px solid #CAD5DE;
 `
