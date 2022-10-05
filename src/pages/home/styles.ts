@@ -20,12 +20,12 @@ export const DivMain = styled.div`
   display: flex;
   margin-top: 10px;
   width: 95%;
-  height: 55%;
+  height: 100%;
 `
 
 export const ContainerAside = styled.div`
   display: flex;
-  width: 25%;
+  width: 30%;
   height: 100%;
   border: 2px solid #CAD5DE;
   text-align: center;

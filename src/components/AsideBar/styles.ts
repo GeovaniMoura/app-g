@@ -36,11 +36,13 @@ export const SideCaption = styled.h2`
 
 export const ContainerHydrographicBasin = styled(Link)`
   display: flex;
+  width: 90%;
+  height: 30px;
   border: 2px solid #CAD5DE;
   align-items: center;
+  justify-content: center;
   font-size: 12px;
-  padding: 5px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   text-align: center;
   text-decoration: none;
   color: black;
@@ -68,6 +70,8 @@ export const ContainerDivsMilkProduction = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 `
 
 export const ContainerImageMilkProduction = styled.div`
@@ -79,9 +83,9 @@ export const CowImage = styled.img`
   width: 26px;
 `
 
-export const LinkPasto = styled(Link)`
-  text-decoration: none;
-  color: black;
+export const MilkProductionLinksContainer = styled.div`
+  width: 80%;
+  margin-right: 5px;
 `
 
 export const DivsMilkProduction = styled(Link)`
@@ -97,21 +101,93 @@ export const DivsMilkProduction = styled(Link)`
 `
 
 export const ContainerBroilerBirds = styled(Link)`
-  margin: 5px;
-  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
   text-decoration: none;
   color: black;
-  display: flex;
-  align-items: center;
   border: 2px solid #CAD5DE;
 `
 
+export const IconContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+`
+
+export const ChickenImage = styled.img`
+  width: 24px;
+`
+
 export const ContainerSwine = styled(Link)`
-  margin: 5px;
-  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  width: 100%;
   text-decoration: none;
   color: black;
   display: flex;
   align-items: center;
   border: 2px solid #CAD5DE;
+  height: 30px;
+`
+
+export const SwineImage = styled.img`
+  width: 26px;
+`
+
+export const ScarcityImpactsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8px;
+  width: 90%;
+`
+
+export const ScarcityImpactsLinkContainer = styled(Link)`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid #CAD5DE;
+`
+
+export const oneDropImage = styled.img`
+  width: 22px;
+`
+
+export const AuthorsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  width: 90%;
+`
+
+export const AuthorsLinkContainer = styled(Link)`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid #CAD5DE;
+`
+
+export const emojiImage = styled.img`
+  width: 18px;
 `

@@ -23,6 +23,6 @@ export const ContainerDivsCircle = styled.div`
 `
 export const DivImageHeader = styled.div`
   width: 100vw;
-  height: 80px;
+  height: 70px;
   background-color: red;
 `

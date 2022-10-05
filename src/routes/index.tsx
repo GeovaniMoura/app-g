@@ -5,6 +5,9 @@ import HydrographicBasin from '../pages/hydrographicBasin';
 import Pasture from '../pages/pasture';
 import SemiConfined from '../pages/semiConfined';
 import BroilerBirds from '../pages/broilerBirds';
+import Swine from '../pages/swine';
+import ScarcityImpacts from '../pages/ scarcityImpacts';
+import Authors from '../pages/ authors';
 
 function App() {
   return (
@@ -15,7 +18,9 @@ function App() {
       <Route path="/semi-confined" element={<SemiConfined />} />    
       <Route path="/confined" element={<Confined />} />
       <Route path="/broiler-birds" element={<BroilerBirds />} />
-      <Route path="/swine" element={<BroilerBirds />} />
+      <Route path="/swine" element={<Swine />} />
+      <Route path="/scarcity-impacts" element={<ScarcityImpacts />} />
+      <Route path="/authors" element={<Authors />} />
     </Routes>
   );
 }

@@ -1,6 +1,10 @@
 import * as S from './styles';
-import raindrop from "../../images/raindrop.png"
-import cow from "../../images/cow.png"
+import raindrop from "../../images/raindrop.png";
+import cow from "../../images/cow.png";
+import chicken from '../../images/chicken.png';
+import swine from '../../images/swine.png';
+import oneDrop from '../../images/oneDrop.png';
+import emoji from '../../images/emoji.png';
 
 function AsideBar() {
   return (
@@ -22,7 +26,7 @@ function AsideBar() {
               <S.ContainerImageMilkProduction>
                 <S.CowImage src={cow} alt="vaca" />
               </S.ContainerImageMilkProduction>
-              <div>
+              <S.MilkProductionLinksContainer>
                 <S.DivsMilkProduction to="/pasture">
                   <p>A pasto</p>
                 </S.DivsMilkProduction>
@@ -32,23 +36,42 @@ function AsideBar() {
                 <S.DivsMilkProduction to="/confined">
                   <p>Confinado</p>
                 </S.DivsMilkProduction>
-              </div>
+              </S.MilkProductionLinksContainer>
             </S.ContainerDivsMilkProduction>
           </S.ContainerMilkProduction>
           <S.ContainerBroilerBirds to="/broiler-birds">
-            <S.CowImage src={cow} alt="vaca" />
-            <p>Aves de corte</p>
+            <S.IconContainer>
+              <S.ChickenImage src={chicken} alt="galinha" />
+            </S.IconContainer>
+            <div>
+              <p>Aves de corte</p>
+            </div>
           </S.ContainerBroilerBirds>
           <S.ContainerSwine to="/swine">
+            <S.IconContainer>
+              <S.SwineImage src={swine} alt="porco" />
+            </S.IconContainer>
             <p>Suínos</p>
           </S.ContainerSwine>
         </S.ContainerWaterProductivity>
-        <div>
+        <S.ScarcityImpactsContainer>
           <S.SideCaption>Escassez hídrica</S.SideCaption>
-        </div>
-        <div>
+          <S.ScarcityImpactsLinkContainer to="/scarcity-impacts">
+            <S.IconContainer>
+              <S.oneDropImage src={oneDrop} alt="uma gota"/>
+            </S.IconContainer>
+            <p>Impactos escassez</p>
+          </S.ScarcityImpactsLinkContainer>
+        </S.ScarcityImpactsContainer>
+        <S.AuthorsContainer>
           <S.SideCaption>Quem somos</S.SideCaption>
-        </div>
+          <S.AuthorsLinkContainer to="/authors">
+            <S.IconContainer>
+              <S.emojiImage src={emoji} alt="emoji sorriso"/>
+            </S.IconContainer>
+            <p>Autores</p>
+          </S.AuthorsLinkContainer>
+        </S.AuthorsContainer>
       </S.ContainerContent>
       </S.ContainerAside>
   )

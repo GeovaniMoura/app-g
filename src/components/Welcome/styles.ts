@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const DivWelcome = styled.div`
   display: flex;
   width: 95%;
-  height: 168px;
+  height: 140px;
   background-color: #FFF;
   border: 2px solid #CAD5DE;
 `
