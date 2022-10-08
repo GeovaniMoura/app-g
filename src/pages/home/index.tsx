@@ -1,5 +1,6 @@
 import AsideBar from "../../components/AsideBar";
 import Header from "../../components/Header";
+import ProjectReasons from "../../components/ProjectReasons";
 import Welcome from "../../components/Welcome";
 import * as S from './styles';
 
@@ -24,9 +25,7 @@ function Home() {
 
               <S.ContainerFarmsAndReasons>
 
-                <S.ContainerProjectReasons>
-                  <h1 style={{ fontSize: 20, margin: 5 }}>MENU</h1>
-                </S.ContainerProjectReasons>
+                <ProjectReasons />
 
                 <S.ContainerEvaluatedFarms>
                   <h1 style={{ fontSize: 20, margin: 5 }}>MENU</h1>
