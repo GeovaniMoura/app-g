@@ -13,11 +13,17 @@ export const ContainerProjectReasons = styled.div`
 
 export const ProjectReasonsTitleContainer = styled.div`
   display: flex;
-  width: 80%;
+  width: 90%;
   height: 30%;
   text-align: center;
+  justify-content: center;
+  margin: 5px;
+`
+
+export const ProjectReasonsTitle = styled.p`
+  text-align: center;
   font-size: 14px;
-  margin-top: 5px;
+  font-weight: 500;
 `
 
 export const BulletListContainer = styled.div`

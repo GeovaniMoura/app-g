@@ -4,9 +4,9 @@ function ProjectReasons() {
   return (
     <S.ContainerProjectReasons>
       <S.ProjectReasonsTitleContainer>
-        <p>
+        <S.ProjectReasonsTitle>
           Razões para o desenvolvimento deste projeto:
-        </p>
+        </S.ProjectReasonsTitle>
       </S.ProjectReasonsTitleContainer>
       <S.BulletListContainer>
         <S.BulletList>
