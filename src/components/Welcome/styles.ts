@@ -10,16 +10,21 @@ export const DivWelcome = styled.div`
 
 export const BlockGray = styled.div`
   display: flex;
-  width: 25%;
+  align-items: center;
+  width: 23%;
   height: 100%;
   justify-content: center;
   background-color: #E2E7EC;
 `
 
-export const LogoImg = styled.div`
-  width: 80%;
+export const LogoContainer = styled.div`
+  width: 197px;
+  height: 167px;
+`
+
+export const LogoImage = styled.img`
+  width: 100%;
   height: 100%;
-  background-color: blue;
 `
 
 export const ContainerTextWelcome = styled.div`

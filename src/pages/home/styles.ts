@@ -42,7 +42,7 @@ export const ContainerFarmsAndReasons = styled.div`
 export const ContainerMethodology = styled.div`
   display: flex;
   flex-grow: 1;
-  height: 93%;
+  height: 100%;
   margin-left: 40px;
   border: 2px solid #CAD5DE;
   justify-content: center;
@@ -59,6 +59,7 @@ export const ContainerFarmsAndReasonsAndMethodology = styled.div`
   display: flex;
   height: 100%;
   width: 100%;
+  margin-bottom: 8px;
 `
 
 export const ContainerProductivity = styled.div`

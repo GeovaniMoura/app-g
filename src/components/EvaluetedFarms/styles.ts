@@ -4,9 +4,9 @@ export const ContainerEvaluatedFarms = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 30%;
+  height: 40%;
   border: 2px solid #CAD5DE;
-  margin: 6px 20px;
+  margin: 0 20px;
   justify-content: center;
 `
 
@@ -34,6 +34,7 @@ export const QuantityFarmsContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   margin-bottom: 4px;
+  margin-left: 5px;
   height: 100%;
   width: 50%;
 `
@@ -48,6 +49,7 @@ export const HydrographicBasinContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin-right: 5px;
   width: 50%;
 `
 

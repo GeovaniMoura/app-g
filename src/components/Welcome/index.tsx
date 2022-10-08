@@ -1,10 +1,13 @@
 import * as S from './styles';
+import logo from '../../images/logo.png';
 
 function Welcome() {
   return (
     <S.DivWelcome>
       <S.BlockGray>
-        <S.LogoImg></S.LogoImg>
+        <S.LogoContainer>
+          <S.LogoImage src={logo} alt="logotipo" />
+        </S.LogoContainer>
       </S.BlockGray>
       <S.ContainerTextWelcome>
         <S.TitleWelcome>Seja bem vindos!</S.TitleWelcome>

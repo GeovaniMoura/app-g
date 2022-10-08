@@ -9,6 +9,7 @@ export const ContainerProjectReasons = styled.div`
   height: 60%;
   border: 2px solid #CAD5DE;
   margin: 0 20px;
+  margin-bottom: 6px;
 `
 
 export const ProjectReasonsTitleContainer = styled.div`

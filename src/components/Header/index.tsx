@@ -1,4 +1,5 @@
 import * as S from './styles';
+import dropsBackground from '../../images/dropsBackground.png';
 
 function Header() {
 	return (
@@ -13,7 +14,9 @@ function Header() {
 				</S.DivGray>
 			</div>
 			<div>
-				<S.DivImageHeader></S.DivImageHeader>
+				<S.DivImageHeader>
+					<S.DropsImage src={dropsBackground} alt="fundo de gotas" />
+				</S.DivImageHeader>
 			</div>
 		</div>
 	);

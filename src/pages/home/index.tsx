@@ -1,6 +1,7 @@
 import AsideBar from "../../components/AsideBar";
 import EvaluetedFarms from "../../components/EvaluetedFarms";
 import Header from "../../components/Header";
+import Productivity from "../../components/Productivity";
 import ProjectReasons from "../../components/ProjectReasons";
 import Welcome from "../../components/Welcome";
 import * as S from './styles';
@@ -38,9 +39,7 @@ function Home() {
 
             </S.ContainerFarmsAndReasonsAndMethodology>
 
-            <S.ContainerProductivity>
-              <h1 style={{ fontSize: 20, margin: 5 }}>MENU</h1>
-            </S.ContainerProductivity>
+            <Productivity />
 
           </S.ContainerCenter>
 
