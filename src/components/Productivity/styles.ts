@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const ProductivityContainer = styled.div`
@@ -18,7 +19,8 @@ export const WaterProductivityContainer = styled.div`
 
 export const WaterScarcityContainer = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 50%;
 `
 
@@ -61,4 +63,30 @@ export const BulletList = styled.ul`
 export const LiBulletList = styled.li`
   margin: 2px 0;
   width: 80%;
+`
+
+export const WulcaContainer = styled.a`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  height: 30%;
+  font-size: 12px;
+`
+
+export const WulcaImage = styled.img`
+  width: 100px;
+`
+
+export const FootPrintContainer = styled.a`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  height: 30%;
+  font-size: 12px;
+`
+
+export const FootPrintImage = styled.img`
+  width: 100px;
 `

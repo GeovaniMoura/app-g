@@ -4,7 +4,7 @@ export const DivWelcome = styled.div`
   display: flex;
   width: 95%;
   height: 140px;
-  background-color: #FFF;
+  background-color: #F4F4F4;
   border: 2px solid #CAD5DE;
 `
 

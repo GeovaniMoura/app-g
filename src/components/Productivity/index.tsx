@@ -1,4 +1,6 @@
 import * as S from './styles';
+import wulca from '../../images/wulca.png';
+import footPrint from '../../images/footPrint.png';
 
 function Productivity() {
   return (
@@ -21,9 +23,26 @@ function Productivity() {
         </S.BulletList>
       </S.WaterProductivityContainer>
       <S.WaterScarcityContainer>
+
         <S.TitleContainer>
           <S.Title>Escassez hídrica (bacia hidrográfica)</S.Title>
         </S.TitleContainer>
+
+        <S.WulcaContainer
+          href="https://wulca-waterlca.org/"
+          target="_blank"
+        >
+          <S.WulcaImage src={wulca} alt="logo Wulca" />
+          <p>AWARE - Available Water Remaining</p>
+        </S.WulcaContainer>
+
+        <S.FootPrintContainer
+          href="https://waterfootprint.org/en/"
+          target="_blank"
+        >
+          <S.FootPrintImage src={footPrint} alt="logo footprint" />
+          <p>BWSI - Blue Water Scarcity Index</p>
+        </S.FootPrintContainer>
       </S.WaterScarcityContainer>
     </S.ProductivityContainer>
   )
