@@ -1,6 +1,6 @@
 import * as S from './styles';
-import raindrop from '../../images/raindrop.png';
-import farmer from '../../images/farmer.png';
+import raindrop from '../../../../images/raindrop.png';
+import farmer from '../../../../images/farmer.png';
 
 function EvaluetedFarms() {
   return (

@@ -1,9 +1,10 @@
-import AsideBar from "../../components/AsideBar";
-import EvaluetedFarms from "../../components/EvaluetedFarms";
-import Header from "../../components/Header";
-import Productivity from "../../components/Productivity";
-import ProjectReasons from "../../components/ProjectReasons";
-import Welcome from "../../components/Welcome";
+import AsideBar from "./components/AsideBar";
+import EvaluetedFarms from "./components/EvaluetedFarms";
+import Header from "./components/Header";
+import Methodology from "./components/Methodology";
+import Productivity from "./components/Productivity";
+import ProjectReasons from "./components/ProjectReasons";
+import Welcome from "./components/Welcome";
 import * as S from './styles';
 
 function Home() {
@@ -22,25 +23,16 @@ function Home() {
           </S.ContainerAside>
 
           <S.ContainerCenter>
-
             <S.ContainerFarmsAndReasonsAndMethodology>
-
               <S.ContainerFarmsAndReasons>
-
                 <ProjectReasons />
-
                 <EvaluetedFarms />
-
               </S.ContainerFarmsAndReasons>
 
-              <S.ContainerMethodology>
-                <h1 style={{ fontSize: 20, margin: 5 }}>MENU</h1>
-              </S.ContainerMethodology>
-
+              <Methodology />
             </S.ContainerFarmsAndReasonsAndMethodology>
 
             <Productivity />
-
           </S.ContainerCenter>
 
         </S.DivMain>

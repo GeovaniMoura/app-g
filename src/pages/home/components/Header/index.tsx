@@ -1,5 +1,5 @@
 import * as S from './styles';
-import dropsBackground from '../../images/dropsBackground.png';
+import dropsBackground from '../../../../images/dropsBackground.png';
 
 function Header() {
 	return (

@@ -1,10 +1,10 @@
 import * as S from './styles';
-import raindrop from "../../images/raindrop.png";
-import cow from "../../images/cow.png";
-import chicken from '../../images/chicken.png';
-import swine from '../../images/swine.png';
-import oneDrop from '../../images/oneDrop.png';
-import emoji from '../../images/emoji.png';
+import raindrop from '../../../../images/raindrop.png';
+import cow from "../../../../images/cow.png";
+import chicken from '../../../../images/chicken.png';
+import swine from '../../../../images/swine.png';
+import oneDrop from '../../../../images/oneDrop.png';
+import emoji from '../../../../images/emoji.png';
 
 function AsideBar() {
   return (

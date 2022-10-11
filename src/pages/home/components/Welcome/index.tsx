@@ -1,5 +1,5 @@
 import * as S from './styles';
-import logo from '../../images/logo.png';
+import logo from '../../../../images/logo.png';
 
 function Welcome() {
   return (

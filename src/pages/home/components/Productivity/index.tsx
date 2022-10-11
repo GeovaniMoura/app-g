@@ -1,6 +1,6 @@
 import * as S from './styles';
-import wulca from '../../images/wulca.png';
-import footPrint from '../../images/footPrint.png';
+import wulca from '../../../../images/wulca.png';
+import footPrint from '../../../../images/footPrint.png';
 
 function Productivity() {
   return (

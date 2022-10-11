@@ -39,15 +39,6 @@ export const ContainerFarmsAndReasons = styled.div`
   height: 100%;
 `
 
-export const ContainerMethodology = styled.div`
-  display: flex;
-  flex-grow: 1;
-  height: 100%;
-  margin-left: 40px;
-  border: 2px solid #CAD5DE;
-  justify-content: center;
-`
-
 export const ContainerCenter = styled.div`
   display: flex;
   flex-direction: column;
